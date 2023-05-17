@@ -1,0 +1,23 @@
+h1 {
+    color: rgb(113, 14, 143);
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500px;
+  }
+  body {
+    background-color: rgb(167, 211, 231);
+  }
+  
+  div form{
+    color: rgb(113, 14, 143);
+    text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+  }
+
+  #wrap{
+
+    width: 1500px;
+    margin: auto;
+    padding: 30px 40px;
+  }
