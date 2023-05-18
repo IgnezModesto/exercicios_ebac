@@ -1,14 +1,15 @@
-Feature: Checkout
+#language: pt
+
+Funcionalidade: Checkout
 Como cliente da EBAC-SHOP
 Quero fazer concluir meu cadastro   
 Para finalizar minha compra
 
+Contexto:
+Dado que eu acesse a página de autenticação da EBAC - SHOP
 
-Background: 
-Given que eu acesse a página de autenticação da EBAC - SHOP
-
-Scenario: Checkout
-When eu concluir meu cadastro, todos os campos com asteriscos devem ser obrigatórios
-And no campo e-mail deve estar no formato válido 
-Then ao tentar fazer cadastro e deixar campo em branco, aparece uma mensagem de alerta "campo vazio"
+Cenario: Checkout
+Quando eu concluir meu cadastro, todos os campos com asteriscos devem ser obrigatórios
+E no campo e-mail deve estar no formato válido 
+Então ao tentar fazer cadastro e deixar campo em branco, aparece uma mensagem de alerta "campo vazio"
 
